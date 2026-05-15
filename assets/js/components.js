@@ -5,14 +5,8 @@
 
 (function injectComponents() {
 
-  /* ---- PRELOADER ---- */
-  const preloaderHTML = `
-  <div id="preloader">
-    <div class="preloader-inner">
-      <img src="assets/images/icon.svg" alt="DeployStacker" height="56" style="margin-bottom:12px;">
-      <div class="preloader-bar"><div class="preloader-bar-fill"></div></div>
-    </div>
-  </div>`;
+  /* ---- PRELOADER REMOVED ---- */
+  const preloaderHTML = ``;
 
   /* ---- NAVBAR ---- */
   const navbarHTML = `

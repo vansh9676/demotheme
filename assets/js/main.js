@@ -5,15 +5,7 @@
 
 'use strict';
 
-/* ============================================================
-   PRELOADER
-   ============================================================ */
-window.addEventListener('load', () => {
-  const preloader = document.getElementById('preloader');
-  if (preloader) {
-    setTimeout(() => preloader.classList.add('hidden'), 600);
-  }
-});
+/* Preloader removed */
 
 /* ============================================================
    NAVBAR — scroll behaviour + mobile toggle

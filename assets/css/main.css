@@ -176,38 +176,7 @@ p  { font-size: var(--fs-base); color: var(--color-text); line-height: 1.75; }
 }
 .btn:hover .btn-icon { background: rgba(255,255,255,0.28); transform: translateX(3px); }
 
-/* ---- Preloader ---- */
-#preloader {
-  position: fixed; inset: 0;
-  background: var(--color-background);
-  z-index: 9999;
-  display: flex; align-items: center; justify-content: center;
-  transition: opacity 0.5s ease, visibility 0.5s ease;
-}
-#preloader.hidden { opacity: 0; visibility: hidden; }
-.preloader-inner {
-  display: flex; flex-direction: column; align-items: center; gap: 20px;
-}
-.preloader-logo {
-  font-size: 1.6rem;
-  font-family: var(--font-primary);
-  color: var(--color-text-dark);
-  letter-spacing: -0.02em;
-}
-.preloader-logo span { color: var(--color-accent); }
-.preloader-bar {
-  width: 200px; height: 2px;
-  background: var(--color-divider);
-  border-radius: 2px;
-  overflow: hidden;
-}
-.preloader-bar-fill {
-  height: 100%;
-  background: var(--color-accent);
-  border-radius: 2px;
-  animation: preload 1.4s ease forwards;
-}
-@keyframes preload { from { width: 0; } to { width: 100%; } }
+/* Preloader removed */
 
 /* ---- Navbar ---- */
 .navbar {
